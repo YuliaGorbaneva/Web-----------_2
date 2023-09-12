@@ -1,10 +1,10 @@
-// alert("Привет!");
-// let num = 5;
-// alert(num);
-// num = 10;
-// console.log(num);
-// const numm = 15;
-// console.log(num+numm);
+alert("Привет!");
+let num = 5;
+alert(num);
+num = 10;
+console.log(num);
+const numm = 15;
+console.log(num+numm);
 
 // Задача 1: Получить от пользователя два числа и вывести в диалоговое окно сумму значений, 
 // которые ввел пользователь, вывод должен выглядеть так (пример): 
@@ -105,6 +105,6 @@
 // градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 
 
-let grad = Number.parseFloat(prompt("Введите температуру:"));
-let far = (9 / 5) * grad + 32;
-alert(`Цельсий: ${grad}, Фаренгейт: ${far.toFixed(2)}`)
+// let grad = Number.parseFloat(prompt("Введите температуру:"));
+// let far = (9 / 5) * grad + 32;
+// alert(`Цельсий: ${grad}, Фаренгейт: ${far.toFixed(2)}`)
