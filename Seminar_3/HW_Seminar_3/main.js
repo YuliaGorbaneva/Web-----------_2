@@ -1,3 +1,5 @@
+// Вариант 1
+
 function greeting() {
     let name = prompt("Как вас зовут?");
     switch (name) {
@@ -14,10 +16,11 @@ function greeting() {
             console.log(`Приветствую тебя ${name}! Хорошоге дня!`)
     }
 }
-
 console.log(greeting());
 
+----------------------------------------------------------------------------------------
 
+// Вариант 2
 
 function greeting() {
     let name = prompt("Как ваше имя?");
