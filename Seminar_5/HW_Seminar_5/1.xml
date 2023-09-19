@@ -1,0 +1,37 @@
+<user>
+
+<name>"Иван"</name>
+
+<surname>"Иванов"</surname>
+
+<patronymic>"Иванович"</patronymic>
+
+<age>"30"</age>
+
+<phone>"Москва"</phone>
+
+<birthplace>"+7 926 766 48 48"</birthplace>
+
+</user
+
+
+
+--------------------------------------------------------
+
+
+<!-- HW -->
+
+1. Нет тега XML;
+2. Данные в тегах находятся в двойных ковычках, в них нет обходимости;
+3. Закрывающий тег <user> не имеет закрывающей скобки;
+
+
+<?xml version="1.0" encoding="URF-8"?>
+<user>
+	<name>Иван</name>
+	<surname>Иванов</surname>
+	<patronymic>Иванович</patronymic>
+	<age>30</age>
+	<phone>Москва</phone>
+	<birthplace>+79267664848</birthplace>
+</user>
